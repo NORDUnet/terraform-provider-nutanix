@@ -1,8 +1,9 @@
 language: go
 go: 
-  - 1.10
+  - "1.10"
 
-go_import_path: github.com/terraform-providers/terraform-provider-nutanix
+#go_import_path: github.com/terraform-providers/terraform-provider-nutanix
+go_import_path: github.com/nutanix/terraform-provider-nutanix
 
 install:
 - bash scripts/gogetcookie.sh
